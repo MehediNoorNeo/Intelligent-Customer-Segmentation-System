@@ -18,8 +18,9 @@ div[data-testid="stDataFrame"] { border: 1px solid #34445c; border-radius: 12px;
 [data-testid="stButtonGroup"] button[kind="segmented_controlActive"] { background: #173e47; border-color: #53d7c8; color: #dbfff9; }
 [data-baseweb="tag"] { background: #18545a !important; color: #e4fffa !important; }
 [data-baseweb="tag"] span { color: #e4fffa !important; }
-button[kind="primary"] { background: #53d7c8; color: #092a2c; border: 1px solid #53d7c8; font-weight: 700; }
-button[kind="primary"]:hover { background: #7ce9dc; color: #092a2c; }
+button[kind="primary"], button[kind="primaryFormSubmit"] { background: #53d7c8; color: #092a2c; border: 1px solid #53d7c8; font-weight: 700; }
+button[kind="primary"] p, button[kind="primaryFormSubmit"] p { color: #092a2c; font-weight: 700; }
+button[kind="primary"]:hover, button[kind="primaryFormSubmit"]:hover { background: #7ce9dc; color: #092a2c; }
 button:focus-visible, input:focus-visible, [role="tab"]:focus-visible, [role="combobox"]:focus-visible { outline: 3px solid #7ce9dc !important; outline-offset: 2px; }
 @media (max-width: 800px) {
   [data-testid="stAppViewBlockContainer"] { padding: 1rem 1rem 2rem; }
