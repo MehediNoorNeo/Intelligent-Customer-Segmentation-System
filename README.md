@@ -4,6 +4,8 @@ SmartSeg explores customer purchasing behavior and groups customers with unsuper
 
 ## Interactive dashboard
 
+**Live app:** [Open SmartSeg on Streamlit Community Cloud](https://85hlg4fajwzafps3mthwyh.streamlit.app/).
+
 The Streamlit app in [`src/app.py`](src/app.py) provides an overview, interactive segment comparisons, a customer table and CSV download, and a form that assigns a customer to a segment. Data loading and profiles live in [`src/data.py`](src/data.py), Plotly styling in [`src/charts.py`](src/charts.py), and reusable HTML in [`src/ui.py`](src/ui.py) and [`src/templates`](src/templates). Native controls use the Streamlit theme in [`.streamlit/config.toml`](.streamlit/config.toml).
 
 ```bash
