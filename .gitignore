@@ -2,4 +2,6 @@
 .venv/
 node_modules/
 __pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
 .streamlit/secrets.toml

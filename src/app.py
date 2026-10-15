@@ -50,7 +50,7 @@ def customer_input(data: pd.DataFrame) -> pd.DataFrame | None:
     return pd.DataFrame([{feature: values.get(feature, 0) for feature in FEATURES}])
 
 
-st.set_page_config(page_title="SmartSeg | Customer intelligence", page_icon="◈", layout="wide")
+st.set_page_config(page_title="SmartSeg | Customer intelligence", page_icon="👥", layout="wide")
 st.html(SRC / "styles" / "tailwind.css")
 st.html(SRC / "styles" / "main.css")
 
