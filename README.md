@@ -81,3 +81,7 @@ jupyter lab
 ```
 
 Run the notebooks in numeric order. To predict clusters for new customer records, apply the saved scaler and PCA transform before passing the resulting three components to the saved KMeans estimator.
+
+## License
+
+SmartSeg is licensed under the [MIT License](LICENSE). Copyright (c) 2026 MehediNoorNeo.
